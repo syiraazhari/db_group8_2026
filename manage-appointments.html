@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Customer Dashboard</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+<aside class="sidebar">
+
+    <h2>Serenity Spa</h2>
+
+    <ul>
+
+        <li><a href="staff-dashboard.html" class="active">📊 Dashboard</a></li>
+
+        <li><a href="manage-appointments.html" class="active">📅 Manage Appointments</a></li>
+
+        <li><a href="customer-list.html" class="active">👥 Customer List</a></li>
+
+        <li><a href="index.html" class="active">🏠 Home</a></li>
+
+        <li><a href="login.html" class="active">🚪 Logout</a></li>
+
+    </ul>
+
+</aside>
+
+    <main class="dashboard-content">
+
+	<h1>Manage Appointments</h1>
+
+<p>
+View and manage customer bookings.
+</p>
+
+<div class="recent-bookings">
+
+    <table>
+
+        <tr>
+            <th>Customer</th>
+            <th>Treatment</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+
+        <tr>
+            <td>Sarah</td>
+            <td>Facial Treatment</td>
+            <td>12 June 2026</td>
+            <td>10:00 AM</td>
+            <td>Pending</td>
+
+            <td>
+                <button class="confirm-btn">
+                    Confirm
+                </button>
+
+                <button class="cancel-btn">
+                    Cancel
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Aina</td>
+            <td>Aromatherapy Massage</td>
+            <td>20 June 2026</td>
+            <td>2:00 PM</td>
+            <td>Confirmed</td>
+
+            <td>
+                <button class="complete-btn">
+                    Complete
+                </button>
+            </td>
+        </tr>
+
+    </table>
+
+</div>
+
+</body>
+</html>

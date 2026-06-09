@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Treatments</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <aside class="sidebar">
+
+        <h2>Serenity Spa</h2>
+
+        <ul>
+		
+			<li><a href="index.html">🏠 Home</a></li>
+
+            <li><a href="customer-dashboard.html">📊 Dashboard</a></li>
+
+            <li><a href="treatments.html">🌿 Treatments</a></li>
+
+            <li><a href="book-appointment.html">📅 Book Appointment</a></li>
+
+            <li><a href="appointment-history.html">📋 Appointment History</a></li>
+
+            <li><a href="profile.html">👤 Profile</a></li>
+
+            <li><a href="login.html">🚪 Logout</a></li>
+
+        </ul>
+
+    </aside>
+
+<main class="dashboard-content">
+
+    <h1>Book Appointment</h1>
+
+    <p>
+        Schedule your next spa treatment.
+    </p>
+	
+	<div class="availability-card">
+
+    <h3>Available Time Slots Today</h3>
+
+    <div class="slot-container">
+
+        <span class="slot available">
+            10:00 AM
+        </span>
+
+        <span class="slot booked">
+            11:00 AM
+        </span>
+
+        <span class="slot available">
+            12:00 PM
+        </span>
+
+        <span class="slot available">
+            2:00 PM
+        </span>
+
+        <span class="slot booked">
+            3:00 PM
+        </span>
+
+        <span class="slot available">
+            4:00 PM
+        </span>
+
+    </div>
+
+</div>
+
+    <div class="booking-card">
+
+        <form>
+
+            <div class="form-group">
+
+                <label>Treatment</label>
+
+                <select>
+
+                    <option>Aromatherapy Massage</option>
+
+                    <option>Facial Treatment</option>
+
+                    <option>Hot Stone Therapy</option>
+
+                </select>
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Appointment Date</label>
+
+                <input type="date">
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Appointment Time</label>
+
+            <select>
+
+				<option>10:00 AM</option>
+
+				<option disabled>
+					11:00 AM (Booked)
+				</option>
+
+				<option>12:00 PM</option>
+
+				<option>2:00 PM</option>
+
+				<option disabled>
+					3:00 PM (Booked)
+				</option>
+
+				<option>4:00 PM</option>
+
+			</select>
+			
+			<p class="availability-note">
+				* Greyed-out slots are already booked and unavailable.
+			</p>
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Remarks</label>
+
+                <textarea placeholder="Optional notes..."></textarea>
+
+            </div>
+
+            <button type="submit" class="book-btn">
+                Confirm Appointment
+            </button>
+
+        </form>
+
+    </div>
+
+</main>
+
+</div>
+
+</body>
+
+</html>
