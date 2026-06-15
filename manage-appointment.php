@@ -12,7 +12,11 @@ if(isset($_GET['confirm']))
 
     mysqli_query($conn,$sql);
 
+<<<<<<< HEAD
     header("Location: manage-appointment.php");
+=======
+    header("Location: manage-appointments.php");
+>>>>>>> 582af90be46039c99decc3864e6c6357dc2e4521
     exit();
 }
 
@@ -26,7 +30,11 @@ if(isset($_GET['cancel']))
 
     mysqli_query($conn,$sql);
 
+<<<<<<< HEAD
     header("Location: manage-appointment.php");
+=======
+    header("Location: manage-appointments.php");
+>>>>>>> 582af90be46039c99decc3864e6c6357dc2e4521
     exit();
 }
 
@@ -40,7 +48,11 @@ if(isset($_GET['complete']))
 
     mysqli_query($conn,$sql);
 
+<<<<<<< HEAD
     header("Location: manage-appointment.php");
+=======
+    header("Location: manage-appointments.php");
+>>>>>>> 582af90be46039c99decc3864e6c6357dc2e4521
     exit();
 }
 

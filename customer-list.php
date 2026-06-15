@@ -81,6 +81,7 @@ View registered customer information.
 
 <div class="recent-bookings">
 
+<<<<<<< HEAD
 	
 	<table>
 
@@ -90,6 +91,9 @@ View registered customer information.
 			<th>Phone Number</th>
 			<th>Email</th>
 		</tr>
+=======
+    <table>
+>>>>>>> 582af90be46039c99decc3864e6c6357dc2e4521
 
         <?php
 			while($row = mysqli_fetch_assoc($result))

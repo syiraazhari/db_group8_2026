@@ -105,10 +105,13 @@ $result = mysqli_query($conn,$sql);
 Add, edit and manage spa treatments.
 </p>
 
+<<<<<<< HEAD
 <a href="add-treatment.php" class="book-btn">+ Add Treatment</a>
 
 <br><br>
 
+=======
+>>>>>>> 582af90be46039c99decc3864e6c6357dc2e4521
 <div class="recent-bookings">
 
     <table>
@@ -138,6 +141,7 @@ while($row = mysqli_fetch_assoc($result))
     <td>RM<?php echo $row['Price']; ?></td>
 
     <td>
+<<<<<<< HEAD
 		<a href="edit-treatment.php?id=<?php echo $row['TreatmentID']; ?>">
 			Edit
 		</a>
@@ -146,6 +150,9 @@ while($row = mysqli_fetch_assoc($result))
 
 		<a href="delete-treatment.php?id=<?php echo $row['TreatmentID']; ?>"
 			onclick="return confirm('Are you sure you want to delete this treatment?')">
+=======
+		<a href="manage-treatments.php?delete=<?php echo $row['TreatmentID']; ?>">
+>>>>>>> 582af90be46039c99decc3864e6c6357dc2e4521
 			Delete
 		</a>
 	</td>

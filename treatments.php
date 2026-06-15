@@ -74,7 +74,11 @@ $result = mysqli_query($conn,$sql);
                     Relaxing full-body massage using natural essential oils.
                 </p>
 
+<<<<<<< HEAD
                 <a href="book-appointment.php" class="book-btn">>
+=======
+                <a href="book-appointment.html" class="book-btn">>
+>>>>>>> 582af90be46039c99decc3864e6c6357dc2e4521
                     Book Now
                 </a>
 
@@ -90,7 +94,11 @@ $result = mysqli_query($conn,$sql);
                     Revitalize and nourish your skin for a healthy radiant glow.
                 </p>
 
+<<<<<<< HEAD
                 <a href="book-appointment.php" class="book-btn">>
+=======
+                <a href="book-appointment.html" class="book-btn">>
+>>>>>>> 582af90be46039c99decc3864e6c6357dc2e4521
                     Book Now
                 </a>
 
@@ -106,7 +114,11 @@ $result = mysqli_query($conn,$sql);
                     Relieve tension, improve circulation and promote relaxation.
                 </p>
 
+<<<<<<< HEAD
                 <a href="book-appointment.php" class="book-btn">
+=======
+                <a href="book-appointment.html" class="book-btn">
+>>>>>>> 582af90be46039c99decc3864e6c6357dc2e4521
 					Book Now
 				</a>
 
