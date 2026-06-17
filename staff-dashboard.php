@@ -76,11 +76,7 @@ $resultSchedule = mysqli_query($conn, $sqlSchedule);
 
         <li><a href="manage-appointments.php" class="active">📅 Manage Appointments</a></li>
 
-<<<<<<< HEAD
 		<li><a href="staff-customer-list.php" class="active">👥 Customer List</a></li>
-=======
-        <li><a href="staff-customer-list.php" class="active">👥 Customer List</a></li>
->>>>>>> 582af90be46039c99decc3864e6c6357dc2e4521
 
         <li><a href="index.html" class="active">🏠 Home</a></li>
 		

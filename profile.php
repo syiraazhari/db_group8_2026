@@ -104,7 +104,7 @@ Manage your personal information.
 
             <label>Email Address</label>
 
-            <input value="<?php echo $row['Email']; ?>" readonly>
+            <input value="<?php echo $row['EmailAddress']; ?>" readonly>
 
         </div>
 

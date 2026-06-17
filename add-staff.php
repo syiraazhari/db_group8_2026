@@ -39,14 +39,12 @@ else
 <div class="register-box">
 
 <h1>Add Staff</h1>
-<<<<<<< HEAD
 
 <p style="text-align:center;">
 Create a new staff account.
 </p>
-=======
+
 <p>Create a new staff account.</p>
->>>>>>> 582af90be46039c99decc3864e6c6357dc2e4521
 
 <form method="POST">
 

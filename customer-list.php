@@ -80,8 +80,6 @@ View registered customer information.
 </p>
 
 <div class="recent-bookings">
-
-<<<<<<< HEAD
 	
 	<table>
 
@@ -91,9 +89,8 @@ View registered customer information.
 			<th>Phone Number</th>
 			<th>Email</th>
 		</tr>
-=======
+		
     <table>
->>>>>>> 582af90be46039c99decc3864e6c6357dc2e4521
 
         <?php
 			while($row = mysqli_fetch_assoc($result))
@@ -103,7 +100,7 @@ View registered customer information.
 				<td><?php echo $row['CustomerID']; ?></td>
 				<td><?php echo $row['FullName']; ?></td>
 				<td><?php echo $row['PhoneNumber']; ?></td>
-				<td><?php echo $row['Email']; ?></td>
+				<td><?php echo $row['EmailAddress']; ?></td>
 			</tr>
 		<?php
 		}
